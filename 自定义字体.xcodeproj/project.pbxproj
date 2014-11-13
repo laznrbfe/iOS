@@ -21,6 +21,8 @@
 		FAE4E1B61A10686800D3F154 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE4E1981A10686800D3F154 /* UIKit.framework */; };
 		FAE4E1BE1A10686800D3F154 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE4E1BC1A10686800D3F154 /* InfoPlist.strings */; };
 		FAE4E1C01A10686800D3F154 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE4E1BF1A10686800D3F154 /* _____Tests.m */; };
+		FAE4E1CD1A1068CE00D3F154 /* FSAlbert-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FAE4E1CB1A1068CE00D3F154 /* FSAlbert-Bold.otf */; };
+		FAE4E1CE1A1068CE00D3F154 /* FSAlbert.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE4E1CC1A1068CE00D3F154 /* FSAlbert.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		FAE4E1BB1A10686800D3F154 /* 自定义字体Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "自定义字体Tests-Info.plist"; sourceTree = "<group>"; };
 		FAE4E1BD1A10686800D3F154 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FAE4E1BF1A10686800D3F154 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		FAE4E1CB1A1068CE00D3F154 /* FSAlbert-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FSAlbert-Bold.otf"; sourceTree = "<group>"; };
+		FAE4E1CC1A1068CE00D3F154 /* FSAlbert.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FSAlbert.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,7 @@
 		FAE4E19B1A10686800D3F154 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FAE4E1C91A1068CE00D3F154 /* Resource */,
 				FAE4E19C1A10686800D3F154 /* 自定义字体-Info.plist */,
 				FAE4E19D1A10686800D3F154 /* InfoPlist.strings */,
 				FAE4E1A01A10686800D3F154 /* main.m */,
@@ -150,6 +155,23 @@
 				FAE4E1BC1A10686800D3F154 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE4E1C91A1068CE00D3F154 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4E1CA1A1068CE00D3F154 /* 字体 */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FAE4E1CA1A1068CE00D3F154 /* 字体 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE4E1CB1A1068CE00D3F154 /* FSAlbert-Bold.otf */,
+				FAE4E1CC1A1068CE00D3F154 /* FSAlbert.ttf */,
+			);
+			path = "字体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE4E1AD1A10686800D3F154 /* Images.xcassets in Resources */,
+				FAE4E1CD1A1068CE00D3F154 /* FSAlbert-Bold.otf in Resources */,
+				FAE4E1CE1A1068CE00D3F154 /* FSAlbert.ttf in Resources */,
 				FAE4E19F1A10686800D3F154 /* InfoPlist.strings in Resources */,
 				FAE4E1A81A10686800D3F154 /* Main.storyboard in Resources */,
 			);
